@@ -4,9 +4,18 @@ Python3 script to download the current term's material from https://koala.uni-pa
 
 ## Usage
 
-* Make sure that the 'requests' and the 'beautifulsoup4' libraries are installed
-* Create credentials.txt in the directory of the script
-  * Enter your username in the first line and your password in the second line
-* Run the script
+Clone the repository and install the dependencies:
 
-It will proceed to automatically scrape everything without any user input.
+```shell
+$ pip3 install requests beautifulsoup4 PyYaml
+```
+
+Create `prefs.yaml` in the root and enter your credentials:
+
+```yaml
+username: replace_me
+base64password: your_password_in_base64
+```
+
+Then you can run the script and it will scrape everything automatically.
+You can rerun the script as often as you like, files are timestamped and only newer versions of a file will be downloaded.
