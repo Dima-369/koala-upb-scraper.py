@@ -34,5 +34,6 @@ Stochastik für Informatiker und Lehramtsstudierende (Übung)/Übungsblatt/Uebun
 
 ## Notes
 
+* The script very likely only works with the German version of koaLA; it is untested the English site
 * It is preferable to run the script twice; sometimes it does not pick up on each subdirectory for some reason
 * Videos are usually not downloaded because they are stored differently in the koaLa platform
